@@ -5,3 +5,67 @@
      margin: 0;
      padding: 0;
  }
+ body{
+    /* Establecemos que el ancho especificado sea equivalente al ancho total */
+    box-sizing: border-box;
+    /* Establecemos el tipo de letra lato*/
+    font-family: 'Montserrat', sans-serif;
+    /* Establecemos alineamiento por defecto a la izquierda*/
+    text-align: left;
+    
+}
+ /* Estilos para el Encabezado*/
+ header {
+    
+     position:fixed;
+     border-left-width: 0px;
+     border-right-width: 0px;
+     border-top-width: 0px;
+     border-bottom-width: 0px; 
+     padding-top: 25px;
+     padding-bottom: 25px;
+     padding-right: 18px;
+     padding-left: 18px;
+     right: 0px;
+     z-index: 1000;
+     top: 0;
+     left:0;
+     background: #2c3e50;
+ }
+.header-main {
+    border:1px dashed red;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 18px;
+    padding-left: 18px;
+ 
+}
+img[alt="logo"]{
+    border:1px dashed red;
+    width: 4rem;
+    height: 2.83871rem;
+    position: absolute;
+    top:0;
+    left: 0; 
+    padding-left: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+ 
+} 
+.nav-header {
+    position: absolute;
+    right:0;
+}
+.nav-header ul{
+    list-style: none;
+
+}
+.nav-header li{
+    display: inline-block
+}
+.nav-header a{
+    text-decoration: none;
+    color:#fff;
+}
