@@ -1,71 +1,107 @@
-/*
- * Estilos de tu proyecto
- */
+/* setear */
  * {
      margin: 0;
      padding: 0;
  }
+
  body{
     /* Establecemos que el ancho especificado sea equivalente al ancho total */
     box-sizing: border-box;
-    /* Establecemos el tipo de letra lato*/
-    font-family: 'Montserrat', sans-serif;
+    /* Establecemos el tipo de letra Montserrat*/
+    font-family: 'Montserrat';
     /* Establecemos alineamiento por defecto a la izquierda*/
     text-align: left;
     
 }
  /* Estilos para el Encabezado*/
  header {
-    
-     position:fixed;
+     background: linear-gradient(#76278F, #2B1E66);
      border-left-width: 0px;
      border-right-width: 0px;
      border-top-width: 0px;
      border-bottom-width: 0px; 
+     left:0;
      padding-top: 25px;
      padding-bottom: 25px;
      padding-right: 18px;
      padding-left: 18px;
+     position:fixed;
      right: 0px;
-     z-index: 1000;
      top: 0;
-     left:0;
-     background: #2c3e50;
- }
+     z-index: 1000;
+}
+/*Establecemos posicion y espacio al contenedor del menu */
 .header-main {
     border:1px dashed red;
     position: relative;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-right: 18px;
     padding-left: 18px;
  
 }
-img[alt="logo"]{
+/*Establecemos posicion,color margen y espacio al contenedor del logo del encabezado*/
+.logo-header {
     border:1px dashed red;
-    width: 4rem;
-    height: 2.83871rem;
+    color: #fff;
+    left: 0;
+    margin-left: 1rem; 
     position: absolute;
-    top:0;
-    left: 0; 
     padding-left: 2rem;
-    margin-left: 1rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    top:0;
+}
+/*Establecemos tamaño a la logo del encabezado*/
+img[alt="logo"]{
+    height: 2.83871rem;
+    width: 4rem;
+    
+    
  
 } 
+/*Establecemos tamaño a la logo del encabezado*/
 .nav-header {
+    border:1px dashed red;
+    min-width: 4.3rem;
     position: absolute;
-    right:0;
+    top:40%;
+    right:10%;
+    
 }
+/*Establecemos estilo a la lista no ordenada,quita viñetas*/
 .nav-header ul{
     list-style: none;
+    border:1px dashed red;
 
 }
+/*Establecemos que el elemento de bloque se comporte como linea*/
 .nav-header li{
-    display: inline-block
+    display: inline-block;
+    border:1px dashed red;
 }
-.nav-header a{
+/*Establecemos tamaño,espacio,color y quitamos el subrayado a los enlaces */
+a{
     text-decoration: none;
     color:#fff;
+    padding: 24px 24px 24px 24px; 
+    /* padding:8px 16px 8px 16px; */ 
+    font-size: 1.125rem;
+    
+}
+/* Seleccione y aplique un estilo a un enlace cuando lo coloque sobre él */
+.nav-header a:hover {
+color:#ff10c3;
+
+}
+/* Estilo de boton al enlace <log in>*/
+.btnLog{
+    padding-left:1rem;
+    padding-right: 1rem;
+    padding-bottom:.5rem; 
+    padding-top:.5rem;
+    background: transparent;
+    border-radius: .5rem;
+    border:1px solid #d8dce6;
+
 }
