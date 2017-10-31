@@ -15,7 +15,7 @@
 }
  /* Estilos para el Encabezado*/
  header {
-     background: linear-gradient(#76278F, #2B1E66);
+     background: transparent;
      border-left-width: 0px;
      border-right-width: 0px;
      border-top-width: 0px;
@@ -32,7 +32,7 @@
 }
 /*Establecemos posicion y espacio al contenedor del menu */
 .header-main {
-    border:1px dashed red;
+    
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -42,7 +42,7 @@
 }
 /*Establecemos posicion,color margen y espacio al contenedor del logo del encabezado*/
 .logo-header {
-    border:1px dashed red;
+    
     color: #fff;
     left: 0;
     margin-left: 1rem; 
@@ -62,7 +62,7 @@ img[alt="logo"]{
 } 
 /*Establecemos tamaño a la logo del encabezado*/
 .nav-header {
-    border:1px dashed red;
+    
     min-width: 4.3rem;
     position: absolute;
     top:40%;
@@ -72,13 +72,13 @@ img[alt="logo"]{
 /*Establecemos estilo a la lista no ordenada,quita viñetas*/
 .nav-header ul{
     list-style: none;
-    border:1px dashed red;
+    
 
 }
 /*Establecemos que el elemento de bloque se comporte como linea*/
 .nav-header li{
     display: inline-block;
-    border:1px dashed red;
+    
 }
 /*Establecemos tamaño,espacio,color y quitamos el subrayado a los enlaces */
 a{
@@ -104,4 +104,27 @@ color:#ff10c3;
     border-radius: .5rem;
     border:1px solid #d8dce6;
 
+}
+
+/*  
+Estilos para la seccion de videos 
+*/
+
+#watch-one{
+    
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+}
+.container-watch{
+    display: inline-block;
+    position: relative;
+}
+.container-video{
+   position: absolute;
+   left: 0;
+}
+.container-text{
+    top:50%;
+    position: absolute;
+    right:0;
 }
